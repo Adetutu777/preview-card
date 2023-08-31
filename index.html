@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        /* read up on css display */
+        .grid-container {
+            font-family: 'Montserrat', sans-serif;
+            display: grid;
+            /* fr means fraction */
+            /* grid-template-columns: repeat(4, 1fr); */
+            grid-template-columns: 2fr 1fr;
+            /* grid-template-columns: 70% 30%; */
+            gap: 20px;
+        }
+
+        .hello, .lorem {
+            background: rebeccapurple;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+       
+
+            .lorem-cls{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 5px;
+                margin-top: 20px;
+                /* font-family: ; */
+            }
+
+            .flex-container {
+                display: flex;
+                /* gap: 10px; */
+                /* justify-content: space-evenly; */
+                justify-content: space-around;
+                /* justify-content: space-between; */
+            }
+
+    </style>
+</head>
+<body>
+    
+    <div class="">
+        <!-- grid illustration -->
+        <div class="grid-container">
+           <div class="hello">Hello</div>
+           <div class="hello">Hello</div>
+           <div class="hello">Hello</div>
+           <div class="hello">Hello</div>
+           <div class="hello">Hello</div>
+           <div class="hello">Hello</div>
+           <div class="hello">Hello</div>
+           <div class="hello">Hello</div>
+           <div class="hello">Hello</div>
+           <div class="hello">Hello</div>
+        </div>
+
+        <!-- <div class="lorem-cls">
+           <div class="lorem">lorem</div>
+           <div class="lorem">lorem</div>
+           <div class="lorem">lorem</div>   
+        </div> -->
+<hr>
+
+        <!-- flex illustration -->
+        <div class="flex-container">
+            <div class="lorem">Hello</div>
+           <div class="lorem">Hello</div>
+           <div class="lorem">Hello</div>
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+</html>
