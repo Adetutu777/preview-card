@@ -24,7 +24,7 @@ background-color: rgb(238, 213, 91);
 }
 
 .prod-img {
-    background-image: url(/Week-4/image/image-product-desktop.jpg);
+    background-image: url(/image/image-product-desktop.jpg);
     width: 20rem;
     background-size: cover;
     background-position: center;
